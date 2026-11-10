@@ -1,0 +1,25 @@
+<?php
+// Users API texts (English)
+return array_merge(require __DIR__ . '/comun.en.php', [
+    'auth.credenciales' => 'Incorrect email or password.',
+    'auth.bloqueado' => 'Too many failed attempts. The account is locked until :hasta.',
+    'auth.cuenta_pendiente' => 'Your account has not been approved by an administrator yet.',
+    'auth.cuenta_inactiva' => 'Your account is disabled.',
+    'auth.cuenta_rechazada' => 'Your registration request was rejected.',
+    'auth.bienvenido' => 'Welcome, :nombre.',
+    'auth.sesion_cerrada' => 'Session closed.',
+    'usuarios.email_existente' => 'A user with that email already exists.',
+    'usuarios.documento_existente' => 'A user with that ID number already exists.',
+    'usuarios.documento_requerido' => 'Municipal staff must register their ID number.',
+    'usuarios.centro_requerido' => 'An operator must be assigned to a center.',
+    'usuarios.no_auto_modificar' => 'You cannot remove your own administrator role or disable your own account.',
+    'usuarios.dado_de_baja' => 'The user was deactivated.',
+    'usuarios.registro_activo' => 'Registration complete. You can log in now.',
+    'usuarios.registro_pendiente' => 'Request sent. An administrator will review it and notify you once approved.',
+    'usuarios.nueva_solicitud' => 'New registration request',
+    'usuarios.cuenta_aprobada' => 'Account approved',
+    'usuarios.cuenta_aprobada_detalle' => 'Your account was approved. Welcome to SiGeRU.',
+    'usuarios.clave_actual_incorrecta' => 'The current password is not correct.',
+    'usuarios.clave_repetida' => 'The new password must be different from the current one.',
+    'usuarios.clave_cambiada' => 'Password updated. Other sessions were closed.',
+]);

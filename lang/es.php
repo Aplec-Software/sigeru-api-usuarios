@@ -1,0 +1,25 @@
+<?php
+// Textos de la API de Usuarios (español)
+return array_merge(require __DIR__ . '/comun.es.php', [
+    'auth.credenciales' => 'Correo o contraseña incorrectos.',
+    'auth.bloqueado' => 'Demasiados intentos fallidos. La cuenta está bloqueada hasta las :hasta.',
+    'auth.cuenta_pendiente' => 'Su cuenta todavía no fue aprobada por un administrador.',
+    'auth.cuenta_inactiva' => 'Su cuenta está desactivada.',
+    'auth.cuenta_rechazada' => 'Su solicitud de registro fue rechazada.',
+    'auth.bienvenido' => 'Bienvenido/a, :nombre.',
+    'auth.sesion_cerrada' => 'Sesión cerrada.',
+    'usuarios.email_existente' => 'Ya existe un usuario con ese correo electrónico.',
+    'usuarios.documento_existente' => 'Ya existe un usuario con esa cédula.',
+    'usuarios.documento_requerido' => 'El personal municipal debe registrar su cédula.',
+    'usuarios.centro_requerido' => 'El operario debe tener un centro asignado.',
+    'usuarios.no_auto_modificar' => 'No puede quitarse el rol de administrador ni desactivar su propia cuenta.',
+    'usuarios.dado_de_baja' => 'El usuario fue dado de baja.',
+    'usuarios.registro_activo' => 'Registro completado. Ya puede iniciar sesión.',
+    'usuarios.registro_pendiente' => 'Solicitud enviada. Un administrador la revisará y le avisará cuando esté aprobada.',
+    'usuarios.nueva_solicitud' => 'Nueva solicitud de registro',
+    'usuarios.cuenta_aprobada' => 'Cuenta aprobada',
+    'usuarios.cuenta_aprobada_detalle' => 'Su cuenta fue aprobada. Bienvenido/a a SiGeRU.',
+    'usuarios.clave_actual_incorrecta' => 'La contraseña actual no es correcta.',
+    'usuarios.clave_repetida' => 'La nueva contraseña debe ser distinta de la actual.',
+    'usuarios.clave_cambiada' => 'Contraseña actualizada. Se cerraron las demás sesiones.',
+]);
